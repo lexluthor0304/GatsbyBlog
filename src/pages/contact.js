@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../component/footer'
 
 const ContactPage = () => {
     return(
