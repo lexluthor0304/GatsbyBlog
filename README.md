@@ -10,4 +10,8 @@
 
 ### Gatsbyを使ってBlogを構築するプロジェクト
 
+## 勉強しながらプロジェクトを完成していく
+
+# このぐらいかな
+
 <!-- AUTO-GENERATED-CONTENT:END -->
