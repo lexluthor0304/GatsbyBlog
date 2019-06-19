@@ -8,6 +8,6 @@
   Gatsby's hello-world starter
 </h1>
 
-Gatsbyを使ってBlogを構築するプロジェクト
+＃＃＃ Gatsbyを使ってBlogを構築するプロジェクト
 
 <!-- AUTO-GENERATED-CONTENT:END -->
