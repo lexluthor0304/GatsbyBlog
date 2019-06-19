@@ -8,6 +8,10 @@
   Gatsby's hello-world starter
 </h1>
 
-### Gatsbyを使ってBlogを構築するプロジェクト
+# Gatsbyを使ってBlogを構築するプロジェクト
+  勉強しながら作成していく。
+  以上
+# 予備
+# 予備1
 
 <!-- AUTO-GENERATED-CONTENT:END -->
