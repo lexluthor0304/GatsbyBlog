@@ -8,7 +8,7 @@
   Gatsby's hello-world starter
 </h1>
 
-### Gatsbyを使ってBlogを構築するプロジェクト
+# Gatsbyを使ってBlogを構築するプロジェクト
 
 ## 勉強しながらプロジェクトを完成していく
 
