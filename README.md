@@ -5,7 +5,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  build a blog with Gatsby
 </h1>
 
 # Gatsbyを使ってBlogを構築するプロジェクト
