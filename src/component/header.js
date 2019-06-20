@@ -13,7 +13,7 @@ const Header = () => {
             <Link className={headerStyles.link} to="/">Home</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link className={headerStyles.link} to="/blog">Blog</Link>
           </li>
           <li>
             <Link to="about">About</Link>
