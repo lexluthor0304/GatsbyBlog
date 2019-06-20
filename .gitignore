@@ -34,6 +34,7 @@ build/Release
 
 # Dependency directories
 /node_modules
+/.cache
 jspm_packages/
 
 # TypeScript v1 declaration files
@@ -53,14 +54,11 @@ typings/
 
 # Yarn Integrity file
 .yarn-integrity
+.prettierrc
+.DS_Store
 
 # dotenv environment variables file
 .env
 
 # next.js build output
 .next
-
-# 除外！！
-/.prettierrc
-/.DS_Store
-/.cache
