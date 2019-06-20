@@ -9,8 +9,11 @@
 </h1>
 
 # Gatsbyを使ってBlogを構築するプロジェクト
-  勉強しながら作成していく。
-  以上
+reactを使用して試作品、作業中
+  ## moudule :
+  - gatsby-plugin-sass  
+  - gatsby-starter-blog
+  ↑なう
 # 予備
 # 予備1
 
