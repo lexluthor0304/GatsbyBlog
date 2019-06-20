@@ -10,8 +10,8 @@
 
 # Gatsbyを使ってBlogを構築するプロジェクト
   ## moudule :
-  gatsby-plugin-sass
-  ----なう
+  - gatsby-plugin-sass  
+  ↑なう
 # 予備
 # 予備1
 
