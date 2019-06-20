@@ -61,6 +61,6 @@ typings/
 .next
 
 # 除外！！
-.prettierrc
-.DS_Store
-.cache
+/.prettierrc
+/.DS_Store
+/.cache
