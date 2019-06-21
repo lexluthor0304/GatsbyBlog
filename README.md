@@ -9,7 +9,8 @@
 </h1>
 
 # Gatsbyを使ってBlogを構築するプロジェクト
-reactを使用して試作品、作業中
+reactを使用して試作品、作業中  
+進捗:30% ================>>>=============================================
   ## moudule :
   - gatsby-plugin-sass  
   - gatsby-starter-blog  
