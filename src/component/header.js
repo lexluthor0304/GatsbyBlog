@@ -5,8 +5,12 @@ import headerStyles from './header.module.scss'
 
 const Header = () => {
   return (
-    <header>
-      <h1>Lex's Blog build with Gatsby</h1>
+    <header className={headerStyles.header}>
+      <h1>
+        <Link className={headerStyles.title} to="/">
+        Lex's Blog build with Gatsby
+        </Link>
+      </h1>
       <nav>
         <ul>
           <li>
@@ -16,10 +20,10 @@ const Header = () => {
             <Link className={headerStyles.link} to="/blog">Blog</Link>
           </li>
           <li>
-            <Link to="about">About</Link>
+            <Link className={headerStyles.link} to="about">About</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link className={headerStyles.link} to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>
