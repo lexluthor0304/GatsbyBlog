@@ -14,7 +14,7 @@ reactを使用して試作品、作業中
   ## moudule :
   - gatsby-plugin-sass  
   - gatsby-starter-blog  
-  ↑なう
+  - env-cmd
 # 工事現場
 作業中のスクリーンショット
 ![工事現場](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/スクリーンショット%202019-06-21%2010.10.03.png)
