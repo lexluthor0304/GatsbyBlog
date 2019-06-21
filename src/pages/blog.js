@@ -11,6 +11,7 @@ const BlogPage = () => {
               node{
                 frontmatter{
                   title
+                  date
                 }
                 html
                 excerpt
@@ -25,7 +26,16 @@ const BlogPage = () => {
     return(
         <Layout>
             <h1>Blog</h1>
-            <h2>Blog page</h2>
+            <ol>
+              {data.allMarkdownRemark.edges.map((edge) =>{
+                return(
+                  <li>
+                    <h2>{edge.node.frontmatter.title}</h2>
+                    <p>{edge.node.frontmatter.date}</p>
+                  </li>
+                )
+              })}
+            </ol>
         </Layout>
     )
 }
