@@ -44,7 +44,7 @@ typings/
 .npm
 
 # normal cache
-.cache
+/.cache/
 
 # Optional eslint cache
 .eslintcache

@@ -6,7 +6,7 @@ import headerStyles from './header.module.scss'
 const Header = () => {
   return (
     <header>
-      <h1>Header</h1>
+      <h1>Lex's Blog build with Gatsby</h1>
       <nav>
         <ul>
           <li>
