@@ -13,7 +13,7 @@ module.exports.onCreateNode = ({ node, actions }) => {
     }
 }
 
-module.exports.creatPages = ({ graphql, actions }) => {
+module.exports.creatPages = async ({ graphql, actions }) => {
     const { creatPages } = actions
     const blogTemplate = path.resolve('./src/templates/blog.js')
     const res = await graphql(`
