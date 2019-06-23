@@ -9,8 +9,14 @@
 </h1>
 
 # Gatsbyを使ってBlogを構築するプロジェクト
-reactを使用して試作品、作業中  
-進捗:80% =============================================>>>>===============
+reactを使用して試作品
+進捗:99% ============================================================
+  ##front-end
+  - gatsby
+
+  ##back-end
+  - contentful
+
   ## moudule :
   - gatsby-plugin-sass  
   - gatsby-starter-blog  
@@ -27,11 +33,14 @@ reactを使用して試作品、作業中
   - react-helmet
 
 # 工事現場
-作業中のスクリーンショット
-![工事現場](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/スクリーンショット%202019-06-21%2010.10.03.png)
-CSSを整えて
-![工事現場更新１](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2015.35.24.png)
-![工事現場更新2](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2016.09.05.png)
+<h2>ホーム画面</h2>
+![home](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/home.png)  
+
+<h2>ブログ画面</h2>
+![blog](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/blog.png)  
+
+<h2>ブログ詳細画面</h2>
+![blogDetails](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2016.09.05.png)
 投稿機能追加中
 ![工事現場更新3](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2023.32.48.png)
 タイトルをリンク化
