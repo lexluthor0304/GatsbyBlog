@@ -4,6 +4,15 @@ module.exports = {
         author: 'Lex Luthor'
     },
     plugins: [
+        {
+            resolve: 'gatsby-source-contentful',
+            options: {
+                // speaceId: 'fhkqbmihmps2',
+                // accessToken: '3dqfzhbXq22haJtZRf1e9gksh2lLW4iHigk4pSOWRaM'
+                speaceId: process.env.CONTENTFUL_SPACE_ID,
+                accessToken: process.env.CONTENTFUL_ACESS_TOKEN
+            }
+        },
         'gatsby-plugin-sass',
         {
             resolve: 'gatsby-source-filesystem',
