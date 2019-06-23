@@ -21,6 +21,8 @@ reactを使用して試作品、作業中
   - gatsby-remark-images
   - gatsby-remark-relative-images
   - gatsby-source-contentful(CMS)
+  - @contentful/rich-text-react-renderer
+  - documentToReactComponents
 
 # 工事現場
 作業中のスクリーンショット
