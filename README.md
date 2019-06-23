@@ -23,8 +23,12 @@ reactを使用して試作品、作業中
 CSSを整えて
 ![工事現場更新１](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2015.35.24.png)
 ![工事現場更新2](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2016.09.05.png)
-投稿機能追加中 //TODO
+投稿機能追加中
 ![工事現場更新3](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2023.32.48.png)
+タイトルをリンク化
+![工事現場更新4](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/Link/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-23%2010.05.00.png)
+投稿リンクをクリックして投稿を見れるように
+![工事現場更新5](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/Link/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-23%2010.05.08.png)
 
 # GRAPHQL
 before
