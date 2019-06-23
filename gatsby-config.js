@@ -4,6 +4,8 @@ module.exports = {
         author: 'Lex Luthor'
     },
     plugins: [
+        'gatsby-plugin-react-helmet',
+
         {
             resolve: 'gatsby-source-contentful',
             options: {
@@ -13,6 +15,7 @@ module.exports = {
                 accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
             }
         },
+
         'gatsby-plugin-sass',
         {
             resolve: 'gatsby-source-filesystem',
@@ -21,6 +24,7 @@ module.exports = {
                 path: `${__dirname}/src/`
             }
         },
+
         'gatsby-plugin-sharp',
         {
             resolve: 'gatsby-transformer-remark',

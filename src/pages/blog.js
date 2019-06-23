@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+import Head from '../component/head'
 
 import Layout from '../component/layout'
 import blogStryles from './blog.module.scss'
@@ -28,6 +29,7 @@ const BlogPage = () => {
 
     return(
         <Layout>
+            <Head title="Blog"/>
             <h1>Blog</h1>
             <ol className={blogStryles.posts}>
               {data.allContentfulBlogPost.edges.map((edge) =>{

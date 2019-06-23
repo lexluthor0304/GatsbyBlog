@@ -10,7 +10,7 @@
 
 # Gatsbyを使ってBlogを構築するプロジェクト
 reactを使用して試作品、作業中  
-進捗:30% ================>>>=============================================
+進捗:80% =============================================>>>>===============
   ## moudule :
   - gatsby-plugin-sass  
   - gatsby-starter-blog  
@@ -23,6 +23,8 @@ reactを使用して試作品、作業中
   - gatsby-source-contentful(CMS)
   - @contentful/rich-text-react-renderer
   - documentToReactComponents
+  - gatsby-plugin-react-helmet
+  - react-helmet
 
 # 工事現場
 作業中のスクリーンショット
