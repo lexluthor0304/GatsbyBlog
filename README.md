@@ -17,6 +17,10 @@ reactを使用して試作品、作業中
   - env-cmd
   - gatsby-transformer-remark
   - gatsby-source-filesystem
+  - gatsby-plugin-sharp
+  - gatsby-remark-images
+  - gatsby-remark-relative-images
+
 # 工事現場
 作業中のスクリーンショット
 ![工事現場](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/スクリーンショット%202019-06-21%2010.10.03.png)
