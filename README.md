@@ -33,19 +33,19 @@ reactを使用して試作品
   - react-helmet
 
 # 完成画面
-<h2>ホーム画面</h2>
+ホーム画面
 ![home](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/home.png)
 
-<h2>ブログ画面</h2>
+## ブログ画面
 ![blog](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/blog.png)
 
-<h2>ブログ詳細画面</h2>
+## ブログ詳細画面
 ![blogDetails](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/blogDetails.png)
 
-<h2>about画面</h2>
+## about画面
 ![about](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/about.png)
 
-<h2>contact画面</h2>
+## contact画面
 ![contact](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/contact.png)
 
 # GRAPHQL
