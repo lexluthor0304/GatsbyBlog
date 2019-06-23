@@ -11,13 +11,13 @@
 # Gatsbyを使ってBlogを構築するプロジェクト
 reactを使用して試作品
 進捗:99% ============================================================
-  ** front-end
+  front-end
   - gatsby
 
-  ** back-end
+  back-end
   - contentful
 
-  ** moudule :
+  moudule :
   - gatsby-plugin-sass  
   - gatsby-starter-blog  
   - env-cmd
@@ -33,7 +33,7 @@ reactを使用して試作品
   - react-helmet
 
 # 完成画面
-ホーム画面
+## ホーム画面
 ![home](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/home.png)
 
 ## ブログ画面
