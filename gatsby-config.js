@@ -9,8 +9,8 @@ module.exports = {
             options: {
                 // speaceId: 'fhkqbmihmps2',
                 // accessToken: '3dqfzhbXq22haJtZRf1e9gksh2lLW4iHigk4pSOWRaM'
-                speaceId: process.env.CONTENTFUL_SPACE_ID,
-                accessToken: process.env.CONTENTFUL_ACESS_TOKEN
+                spaceId: process.env.CONTENTFUL_SPACE_ID,
+                accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
             }
         },
         'gatsby-plugin-sass',
