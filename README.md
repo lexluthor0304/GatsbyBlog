@@ -11,13 +11,13 @@
 # Gatsbyを使ってBlogを構築するプロジェクト
 reactを使用して試作品
 進捗:99% ============================================================
-  ##front-end
+  ** front-end
   - gatsby
 
-  ##back-end
+  ** back-end
   - contentful
 
-  ## moudule :
+  ** moudule :
   - gatsby-plugin-sass  
   - gatsby-starter-blog  
   - env-cmd
