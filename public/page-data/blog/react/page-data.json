@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-blog-js","path":"/blog/react","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"react"}}}
+{"componentChunkName":"component---src-templates-blog-js","path":"/blog/react","webpackCompilationHash":"","result":{"data":{"markdownRemark":{"frontmatter":{"title":"React","date":"2019-06-21"},"html":"<p>Learning React</p>"}},"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"react"}}}
