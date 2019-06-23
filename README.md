@@ -32,21 +32,21 @@ reactを使用して試作品
   - gatsby-plugin-react-helmet
   - react-helmet
 
-# 工事現場
+# 完成画面
 <h2>ホーム画面</h2>
-![home](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/home.png)  
+![home](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/home.png)
 
 <h2>ブログ画面</h2>
-![blog](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/blog.png)  
+![blog](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/blog.png)
 
 <h2>ブログ詳細画面</h2>
-![blogDetails](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2016.09.05.png)
-投稿機能追加中
-![工事現場更新3](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-21%2023.32.48.png)
-タイトルをリンク化
-![工事現場更新4](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/Link/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-23%2010.05.00.png)
-投稿リンクをクリックして投稿を見れるように
-![工事現場更新5](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/Link/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202019-06-23%2010.05.08.png)
+![blogDetails](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/blogDetails.png)
+
+<h2>about画面</h2>
+![about](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/about.png)
+
+<h2>contact画面</h2>
+![contact](https://github.com/lexluthor0304/GatsbyBlog/blob/master/screenshot/%E5%AE%8C%E6%88%90%E7%89%88/contact.png)
 
 # GRAPHQL
 before
