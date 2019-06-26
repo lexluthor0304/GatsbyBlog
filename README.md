@@ -30,9 +30,9 @@ reactを使用して試作品
   - gatsby-plugin-sharp
   - gatsby-remark-images
   - gatsby-remark-relative-images
-  - gatsby-source-contentful(CMS)
-  - @contentful/rich-text-react-renderer
-  - documentToReactComponents
+  - 〜gatsby-source-contentful〜
+  - 〜@contentful/rich-text-react-renderer〜
+  - 〜documentToReactComponents〜
   - gatsby-plugin-react-helmet
   - react-helmet
 
