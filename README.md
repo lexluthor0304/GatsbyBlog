@@ -14,12 +14,12 @@ reactを使用して試作品
 デプロイ方法作成中
 
 進捗:99% ============================================================  
-  front-end
+  Front-End
   - gatsby
 
-  back-end
+  Back-End
   - ~contentful~ 制限が多く、不採用ことにした
-  - 完全にmarkdownの形式で投稿を管理する予定、修正中
+  - ローカルでmarkdownファイルを読み込むことにした
 
   moudule :
   - gatsby-plugin-sass  
@@ -29,12 +29,13 @@ reactを使用して試作品
   - gatsby-source-filesystem
   - gatsby-plugin-sharp
   - gatsby-remark-images
-  - gatsby-remark-relative-images
+  - ~gatsby-remark-relative-images~
   - 〜gatsby-source-contentful〜
   - 〜@contentful/rich-text-react-renderer〜
   - 〜documentToReactComponents〜
   - gatsby-plugin-react-helmet
   - react-helmet
+  - gatsby-remark-embed-video
 
 # 完成画面
 ## ホーム画面

@@ -4,3 +4,5 @@ date: "2019-06-21"
 ---
 
 Learning React
+
+`video: https://www.youtube.com/embed/2Xc9gXyf2G4`
