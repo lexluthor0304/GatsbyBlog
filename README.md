@@ -18,7 +18,8 @@ reactを使用して試作品
   - gatsby
 
   back-end
-  - contentful
+  - ~contentful~ 制限が多く、不採用ことにした
+  - 完全にmarkdownの形式で投稿を管理する予定、修正中
 
   moudule :
   - gatsby-plugin-sass  
