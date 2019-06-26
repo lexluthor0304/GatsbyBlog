@@ -7,18 +7,19 @@ import blogStryles from './blog.module.scss'
 
 const BlogPage = () => {
     const data = useStaticQuery(graphql`
-    query{
-      allContentfulBlogPost (
-        sort: {
-          fields: publishedDate,
-          order: DESC
-        }
-      ) {
+    query {
+      allMarkdownRemark{
         edges {
-          node {
-            title
-            slug
-            publishedDate(formatString: "MMMM Do, YYYY, h:mm:ss a")
+          node{
+            frontmatter{
+              title
+              date
+            }  
+            html
+            excerpt
+            fields {
+              slug
+            }
           }
         }
       }
@@ -32,12 +33,12 @@ const BlogPage = () => {
             <Head title="Blog"/>
             <h1>Blog</h1>
             <ol className={blogStryles.posts}>
-              {data.allContentfulBlogPost.edges.map((edge) =>{
+              {data.allMarkdownRemark.edges.map((edge) =>{
                 return(
                   <li className={blogStryles.post}>
-                    <Link to={`/blog/${edge.node.slug}`}>
-                        <h2>{edge.node.title}</h2>
-                        <p>{edge.node.publishedDate}</p>
+                    <Link to={`/blog/${edge.node.fields.slug}`}>
+                        <h2>{edge.node.frontmatter.title}</h2>
+                        <p>{edge.node.frontmatter.date}</p>
                     </Link>
                   </li>
                 )
