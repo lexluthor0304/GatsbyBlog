@@ -1,4 +1,5 @@
 const path = require('path')
+const _ = require("lodash")
 
 module.exports.onCreateNode = ({ node, actions }) => {
     const {createNodeField} = actions
@@ -13,32 +14,68 @@ module.exports.onCreateNode = ({ node, actions }) => {
     }
 }
 
-module.exports.createPages = async ({ graphql, actions }) => {
+exports.createPages =  ({ graphql, actions }) => {
     const { createPage } = actions
     const blogTemplate = path.resolve('./src/templates/blog.js')
-    const res = await graphql(`
-        query{
-            allMarkdownRemark{
-                edges{
-                    node{
-                        fields{
-                            slug
-                            }
-                        }
-                    }
-                }
-            }
-        `)
-      res.data.allMarkdownRemark.edges.forEach((edge) => {
-        createPage({
-            component: blogTemplate,
-            path: `/blog/${edge.node.fields.slug}`,
-            context: {
-                slug: edge.node.fields.slug
+    const tagTemplate = path.resolve("./src/pages/tags.js")
+    return graphql(`
+    query{
+        allMarkdownRemark (
+          sort: { order: DESC, fields: [frontmatter___date] }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
               }
-          })
-      })
+              frontmatter {
+                tags
+              }
+            }
+          }
+        }
       }
+        `).then(res => {
+            if (res.errors) {
+              return Promise.reject(res.errors)
+            }
+        
+        const posts = res.data.allMarkdownRemark.edges
+
+        posts.forEach((edge) => {
+            createPage({
+                component: blogTemplate,
+                path: `/blog/${edge.node.fields.slug}`,
+                context: {
+                    slug: edge.node.fields.slug
+                  }
+              })
+          })
+
+        let tags = []
+
+        _.each(posts, edge => {
+        if (_.get(edge, "node.frontmatter.tags")) {
+            tags = tags.concat(edge.node.frontmatter.tags)
+        }
+        })
+
+
+        tags = _.uniq(tags)
+
+        tags.forEach(tag => {
+        createPage({
+          component: tagTemplate,
+          path: `/tags/${_.kebabCase(tag)}/`,
+          context: {
+            tag,
+          },
+        })
+      })
+
+        })
+}
 
 //     module.exports.createPages = async ({ graphql, actions }) => {
 //         const { createPage } = actions

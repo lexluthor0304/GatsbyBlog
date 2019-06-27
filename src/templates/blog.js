@@ -1,18 +1,25 @@
 import React from 'react'
 import { graphql } from "gatsby"
 import Layout from '../component/layout'
+
 // import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 import Head from '../component/head'
 
 export const query = graphql`
     query ($slug: String!) {
-        markdownRemark ( fields: { slug: { eq: $slug } }) {
+        markdownRemark ( fields: { slug: { eq: $slug } } ) {
             frontmatter{
                 title
                 date(formatString: "MMMM Do, YYYY")
             }
             html
+        }
+        allMarkdownRemark(limit: 2000) {
+            group(field: frontmatter___tags) {
+              fieldValue
+              totalCount
+            }
         }
     }
 `
