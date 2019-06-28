@@ -11,6 +11,7 @@
 # TODO
   1. タグのCSS
   2. 最新のスクショを貼り替え
+  3. SQLite使うかどうか迷ってる
 
 # Gatsbyを使ってBlogを構築するプロジェクト
 
@@ -23,7 +24,7 @@ reactを使用して試作品
 
   Back-End
   - ~contentful~ 制限が多く、不採用ことにした
-  - ローカルでmarkdownファイルを読み込むことにした
+  - ローカルでmarkdownファイルを読み込む仕様にした
 
   moudule :
   - gatsby-plugin-sass  
