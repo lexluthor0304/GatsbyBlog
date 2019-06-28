@@ -17,7 +17,7 @@ module.exports.onCreateNode = ({ node, actions }) => {
 exports.createPages =  ({ graphql, actions }) => {
     const { createPage } = actions
     const blogTemplate = path.resolve('./src/templates/blog.js')
-    const tagTemplate = path.resolve("./src/pages/tags.js")
+    const tagTemplate = path.resolve("./src/templates/tags.js")
     return graphql(`
     query{
         allMarkdownRemark (

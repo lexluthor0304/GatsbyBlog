@@ -1,8 +1,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 
+// Utilities
 import kebabCase from "lodash/kebabCase"
+import Layout from '../component/layout'
 
+// Components
 import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 
@@ -21,7 +24,6 @@ export const pageQuery = graphql`
     }
   }
 `
-console.log(pageQuery)
 
 const TagsPage = ({
   data: {
@@ -31,6 +33,7 @@ const TagsPage = ({
     },
   },
 }) => (
+  <Layout>
   <div>
     <Helmet title={title} />
     <div>
@@ -46,6 +49,7 @@ const TagsPage = ({
       </ul>
     </div>
   </div>
+  </Layout>
 )
 
 TagsPage.propTypes = {
@@ -67,3 +71,4 @@ TagsPage.propTypes = {
 }
 
 export default TagsPage
+

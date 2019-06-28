@@ -1,6 +1,9 @@
 import React from 'react'
 import { graphql } from "gatsby"
 import Layout from '../component/layout'
+import { kebabCase } from 'lodash'
+import { Link } from 'gatsby'
+
 
 // import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
@@ -12,6 +15,7 @@ export const query = graphql`
             frontmatter{
                 title
                 date(formatString: "MMMM Do, YYYY")
+                tags
             }
             html
         }
@@ -20,6 +24,7 @@ export const query = graphql`
               fieldValue
               totalCount
             }
+            
         }
     }
 `
@@ -42,6 +47,17 @@ const Blog = (props) => {
             <Head title={props.data.markdownRemark.frontmatter.title}/>
             <h1>{props.data.markdownRemark.frontmatter.title}</h1>
             <p>{props.data.markdownRemark.frontmatter.date}</p>
+            {props.data.markdownRemark.frontmatter.tags ? (
+                <div className="TODOtags-container">
+                  <ul className="TODOtaglist">
+                    {props.data.markdownRemark.frontmatter.tags.map(tag => (
+                      <li key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
         </Layout>
     )
