@@ -8,6 +8,11 @@
   Build a blog with Gatsby
 </h1>
 
+# TODO
+  1. タグ機能実装したが、ルーティングに問題があるので、修正待ち
+  2. タグのCSS
+  3. 最新のスクショを貼り替え
+
 # Gatsbyを使ってBlogを構築するプロジェクト
 
 reactを使用して試作品  
@@ -30,9 +35,9 @@ reactを使用して試作品
   - gatsby-plugin-sharp
   - gatsby-remark-images
   - ~gatsby-remark-relative-images~
-  - 〜gatsby-source-contentful〜
-  - 〜@contentful/rich-text-react-renderer〜
-  - 〜documentToReactComponents〜
+  - ~gatsby-source-contentful~
+  - ~@contentful/rich-text-react-renderer~
+  - ~documentToReactComponents~
   - gatsby-plugin-react-helmet
   - react-helmet
   - gatsby-remark-embed-video
