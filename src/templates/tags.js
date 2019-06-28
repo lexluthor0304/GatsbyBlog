@@ -41,7 +41,7 @@ const Tags = ({ pageContext, data }) => {
             const { slug } = node.fields;
             return (
               <li key={slug}>
-                <Link to={slug}>
+                <Link to={`/blog/${slug}`}>
                   {title} ({date})
                 </Link>
               </li>
