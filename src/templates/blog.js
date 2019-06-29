@@ -75,7 +75,7 @@ const Blog = (props) => {
                 </div>
               ) : null} */}
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
-            <DiscussionEmbed />
+            <DiscussionEmbed {...disqusConfig} />
         </Layout>
     )
 }
