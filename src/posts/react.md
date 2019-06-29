@@ -6,4 +6,4 @@ tags: ["null"]
 
 Learning React
 
-`video: https://www.youtube.com/embed/2Xc9gXyf2G4`
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LU-ynRoqDEs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
