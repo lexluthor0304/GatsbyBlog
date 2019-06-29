@@ -46,8 +46,7 @@ export const query = graphql`
 
 const Blog = (props) => {
   const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME,
-    config: { identifier: props.data.markdownRemark.frontmatter.title },
+    shortname: process.env.GATSBY_DISQUS_NAME
   }
     return (
         <Layout>
@@ -76,7 +75,7 @@ const Blog = (props) => {
                 </div>
               ) : null} */}
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
-            <DiscussionEmbed {...disqusConfig} />
+            <DiscussionEmbed />
         </Layout>
     )
 }
