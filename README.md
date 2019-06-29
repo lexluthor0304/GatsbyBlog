@@ -12,7 +12,7 @@
   1. タグのCSS
   2. 最新のスクショを貼り替え
   3. SQLite使うかどうか迷ってる
-  4. やっぱりtagのロジックに問題がある、修正まち
+  4. コードハイライト
 
 # Gatsbyを使ってBlogを構築するプロジェクト
 
@@ -42,6 +42,7 @@ reactを使用して試作品
   - gatsby-plugin-react-helmet
   - react-helmet
   - gatsby-remark-embed-video
+  - gatsby-remark-vscode
 
 # 完成画面
 ## ホーム画面

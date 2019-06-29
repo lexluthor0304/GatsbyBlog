@@ -1,7 +1,7 @@
 ---
 title: "React"
 date: "2019-06-21"
-tags: ["投稿", "テスト", "なんでもない"]
+tags: ["1", "2", "3"]
 ---
 
 Learning React

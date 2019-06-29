@@ -4,7 +4,9 @@ date: "2019-06-21"
 tags: ["投稿", "テスト", "なんでもない"]
 ---
 
-テスト用投稿、何もない〜
+```js
+this.willBe(highlighted);
+```
 
 I love cafe racer
 
