@@ -11,7 +11,6 @@ const Layout = (props) => {
                 <Header className={layoutStyles.hr}/>
                 {props.children}   
             </div>
-            <hr />
             <Footer />
         </div>
     )

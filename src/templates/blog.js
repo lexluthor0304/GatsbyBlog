@@ -3,11 +3,12 @@ import { graphql } from "gatsby"
 import Layout from '../component/layout'
 import { kebabCase } from 'lodash'
 import { Link } from 'gatsby'
+import Head from '../component/head'
+import { DiscussionEmbed } from "disqus-react"
+import tagsStryles from '../pages/tags.module.scss'
 
 
 // import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
-
-import Head from '../component/head'
 
 export const query = graphql`
     query ($slug: String!) {
@@ -41,24 +42,41 @@ export const query = graphql`
 //     }
 // `
 
+
+
 const Blog = (props) => {
+  const disqusConfig = {
+    shortname: process.env.GATSBY_DISQUS_NAME,
+    config: { identifier: props.data.markdownRemark.frontmatter.title },
+  }
     return (
         <Layout>
             <Head title={props.data.markdownRemark.frontmatter.title}/>
             <h1>{props.data.markdownRemark.frontmatter.title}</h1>
             <p>{props.data.markdownRemark.frontmatter.date}</p>
-            {props.data.markdownRemark.frontmatter.tags ? (
-                <div className="TODOtags-container">
-                  <ul className="TODOtaglist">
+            <ul className={tagsStryles.tagsList2}>
+              {props.data.markdownRemark.frontmatter.tags.map(tag => (
+                <li key={tag + `tag`} className={tagsStryles.tagItem2}>
+                  <Link to={`/tags/${kebabCase(tag)}/`}>
+                  {tag} 
+                  </Link>
+                </li>
+                ))}
+              </ul>
+
+            {/* {props.data.markdownRemark.frontmatter.tags ? (
+                <div>
+                  <ul className={tagsStryles.tagList}>
                     {props.data.markdownRemark.frontmatter.tags.map(tag => (
-                      <li key={tag + `tag`}>
+                      <li key={tag + `tag`} className={tagsStryles.tagItem}>
                         <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
                       </li>
                     ))}
                   </ul>
                 </div>
-              ) : null}
+              ) : null} */}
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
+            <DiscussionEmbed {...disqusConfig} />
         </Layout>
     )
 }

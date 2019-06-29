@@ -42,6 +42,16 @@ module.exports = {
                 plugins: [
                     // 'gatsby-remark-relative-images',
                     {
+                        resolve: 'gatsby-remark-responsive-iframe',
+                        options: {
+                            maxWidth: 750,
+                            ratio: 1.77,
+                            related: false,
+                            noIframeBorder: true 
+                        }
+                    },
+
+                    {
                         resolve: 'gatsby-remark-images',
                         options: {
                             maxWidth: 750,

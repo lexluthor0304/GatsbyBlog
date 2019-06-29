@@ -4,6 +4,7 @@ import PropTypes from "prop-types"
 // Utilities
 import kebabCase from "lodash/kebabCase"
 import Layout from '../component/layout'
+import tagsStryles from './tags.module.scss'
 
 // Components
 import { Helmet } from "react-helmet"
@@ -38,15 +39,17 @@ const TagsPage = ({
     <Helmet title={title} />
     <div>
       <h1>Tags</h1>
-      <ul>
-        {group.map(tag => (
-          <li key={tag.fieldValue}>
-            <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-              {tag.fieldValue} ({tag.totalCount})
-            </Link>
-          </li>
-        ))}
-      </ul>
+      <dvi>
+        <ul className={tagsStryles.tagsList}>
+          {group.map(tag => (
+            <li key={tag.fieldValue} className={tagsStryles.tagItem}>
+              <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                {tag.fieldValue} ({tag.totalCount})
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </dvi>
     </div>
   </div>
   </Layout>

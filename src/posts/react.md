@@ -1,7 +1,7 @@
 ---
 title: "React"
 date: "2019-06-21"
-tags: ["1", "2", "3"]
+tags: ["null"]
 ---
 
 Learning React

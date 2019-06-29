@@ -13,6 +13,7 @@
   2. 最新のスクショを貼り替え
   3. SQLite使うかどうか迷ってる
   4. コードハイライト
+  5. タグ機能修正、そしてコンポーネント化待ち
 
 # Gatsbyを使ってBlogを構築するプロジェクト
 
@@ -43,6 +44,7 @@ reactを使用して試作品
   - react-helmet
   - gatsby-remark-embed-video
   - gatsby-remark-vscode
+  - gatsby-remark-responsive-iframe
 
 # 完成画面
 ## ホーム画面
