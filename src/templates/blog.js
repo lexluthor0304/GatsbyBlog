@@ -42,9 +42,8 @@ export const query = graphql`
 //     }
 // `
 
-const disqusShortname = "lexluthor0304";
-
 const Blog = (props) => {
+  const disqusShortname = "lexluthor0304"
   const disqusConfig = {
     identifier: props.data.markdownRemark.id,
     title: props.data.markdownRemark.frontmatter.title,
