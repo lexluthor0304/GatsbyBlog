@@ -12,8 +12,7 @@ const IndexPage = () => {
             <h1>Hello</h1>
             <h2>I am Lex, this is my react blog</h2>
             <p>This is my first React project</p>
-            <p>I spend two days to build this site</p>
-            <p>and welcome to my react site~</p>
+            <p>Welcome to my react site~</p>
             <p>Need a developer? <Link to="/contact">Contact me. </Link></p>
         </Layout>
     )
