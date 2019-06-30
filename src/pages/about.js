@@ -13,7 +13,7 @@ const AboutPage = () => {
             <h2>About this site</h2>
             <p>Base on gatsby</p>
             <p>Host on <a href="https://www.netlify.com/" className={aboutStyle.a}>netlify</a></p>
-            <p>About me</p>
+            <h2>About me</h2>
             <p>A Chinese who working Tokyo.</p>
             <p>I'm graduated from Hosei University, Faculty of Letters, Arts and Sciences.</p>
             <p>Welcome to my Gatsby site~</p>
