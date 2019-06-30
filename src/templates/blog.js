@@ -42,11 +42,12 @@ export const query = graphql`
 //     }
 // `
 
-
+const disqusShortname = "lexluthor0304";
 
 const Blog = (props) => {
   const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME
+    identifier: props.data.markdownRemark.id,
+    title: props.data.markdownRemark.frontmatter.title,
   }
     return (
         <Layout>
@@ -75,7 +76,7 @@ const Blog = (props) => {
                 </div>
               ) : null} */}
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
-            <DiscussionEmbed {...disqusConfig} />
+            <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
         </Layout>
     )
 }
