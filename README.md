@@ -1,7 +1,7 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+    <img alt="Gatsby" src="https://github.com/lexluthor0304/GatsbyBlog/blob/master/static/favicon.ico" width="60" />
   </a>
 </p>
 <h1 align="center">
@@ -9,11 +9,7 @@
 </h1>
 
 # TODO
-  1. タグのCSS
-  2. 最新のスクショを貼り替え
-  3. SQLite使うかどうか迷ってる
-  4. コードハイライト
-  5. タグ機能修正、そしてコンポーネント化待ち
+  1. 永遠はデバッグの途中
 
 # Gatsbyを使ってBlogを構築するプロジェクト
 
@@ -45,6 +41,8 @@ reactを使用して試作品
   - gatsby-remark-embed-video
   - gatsby-remark-vscode
   - gatsby-remark-responsive-iframe
+  - react-live-clock
+  - react-countup
 
 # 完成画面
 ## ホーム画面

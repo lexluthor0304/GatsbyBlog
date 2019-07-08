@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import Clock from 'react-live-clock';
 
 import headerStyles from "./header.module.scss"
 
@@ -58,6 +59,9 @@ const Header = () => {
             >
               Contact
             </Link>
+          </li>
+          <li>
+            <Clock className={headerStyles.navClock} format={'dddd, MMMM Mo, YYYY, h:mm:ss A'} ticking={true} timezone={'jp'} />
           </li>
         </ul>
       </nav>
