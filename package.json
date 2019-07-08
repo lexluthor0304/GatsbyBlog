@@ -13,6 +13,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "mem": ">=4.0.0",
     "antd": "^3.20.1",
     "disqus-react": "^1.0.6",
     "gatsby": "^2.9.9",
