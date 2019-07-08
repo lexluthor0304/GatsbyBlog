@@ -61,7 +61,8 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Clock className={headerStyles.navClock} format={'dddd, MMMM Mo, YYYY, h:mm:ss A'} ticking={true} timezone={'jp'} />
+            {/* <Clock className={headerStyles.navClock} format={'dddd  , MMMM Mo, YYYY, h:mm:ss A'} ticking={true} timezone={'jp'} /> */}
+            <Clock className={headerStyles.navClock} format={'hh  :mm:ss A'} ticking={true} timezone={'jp'} />
           </li>
         </ul>
       </nav>
